@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+npm-debug.log
+
+# Development files
+.git/
+.gitignore
+.env
+.env.*
+
+# Documentation
+README.md
+DEPLOY.md
+
+# Test files
+tests/
+*.test.js
+*.spec.js
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# JobSpy Dockerfile (not needed in Node.js image)
+jobspy/
+
+# Task files
+Taskfile.yaml
