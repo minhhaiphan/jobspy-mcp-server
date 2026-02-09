@@ -36,8 +36,5 @@ build/
 logs/
 *.log
 
-# JobSpy Dockerfile (not needed in Node.js image)
-jobspy/
-
 # Task files
 Taskfile.yaml
