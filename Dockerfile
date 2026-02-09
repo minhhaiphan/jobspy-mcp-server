@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apk add --no-cache docker-cli
 
 # Copy package files
-COPY package*.json ./
+COPY package.json package-lock.json ./
 
 # Install dependencies (production only)
 RUN npm ci --omit=dev
